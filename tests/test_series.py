@@ -1,5 +1,5 @@
 from math_series.series import fibonacci
-
+from math_series.series import lucas
 def test_firstTest():
     l=0
     assert fibonacci(l)=="Incorrect input"
@@ -25,3 +25,11 @@ def test_firstTest7():
 def test_firstTest8():
     l=10
     assert fibonacci(l)==34
+    ###################################
+################  Lucas ##############
+##################################
+
+def test_lucas():
+    input=0
+    assert lucas(input)==2
+
