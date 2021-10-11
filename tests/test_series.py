@@ -41,4 +41,7 @@ def test_lucas2():
 def test_lucas3():
     input=4
     assert lucas(input)==7
+def test_lucas4():
+    input=7
+    assert lucas(input)==29
 
