@@ -1,2 +1,2 @@
-def fibonacci():
-    pass
+def fibonacci(n):
+    return n

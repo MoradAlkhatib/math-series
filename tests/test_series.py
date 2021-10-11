@@ -1,4 +1,5 @@
 from math_series.series import fibonacci
 
 def test_firstTest():
-    assert fibonacci()==None
+    l=5
+    assert fibonacci(l)==l
