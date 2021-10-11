@@ -32,4 +32,13 @@ def test_firstTest8():
 def test_lucas():
     input=0
     assert lucas(input)==2
+def test_lucas1():
+    input=1
+    assert lucas(input)==1
+def test_lucas2():
+    input=9
+    assert lucas(input)==76
+def test_lucas3():
+    input=4
+    assert lucas(input)==7
 
