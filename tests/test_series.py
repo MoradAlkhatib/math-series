@@ -9,3 +9,6 @@ def test_firstTest1():
 def test_firstTest3():
     l=1
     assert fibonacci(l)==0
+def test_firstTest4():
+    l=2
+    assert fibonacci(l)==1

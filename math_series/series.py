@@ -3,4 +3,6 @@ def fibonacci(n):
         return("Incorrect input")
     elif n == 1:
         return 0
+    elif n == 2:
+        return 1
 
