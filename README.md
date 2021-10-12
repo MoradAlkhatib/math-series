@@ -1,4 +1,4 @@
-https://github.com/MoradAlkhatib/math-series/commits/main
+https://github.com/MoradAlkhatib/math-series/pull/1
 
 
 Create a function called fibonacci.
