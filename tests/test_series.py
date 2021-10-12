@@ -15,13 +15,13 @@ def test_firstTest4():
     assert fibonacci(l)==1
 def test_firstTest5():
     l=9
-    assert fibonacci(l)==21
+    assert fibonacci(l)==34
 def test_firstTest6():
     l=4
-    assert fibonacci(l)==2
+    assert fibonacci(l)==3
 def test_firstTest7():
     l=5
-    assert fibonacci(l)==3
+    assert fibonacci(l)==5
 # def test_firstTest8():
 #     l=10
 #     assert fibonacci(l)==34

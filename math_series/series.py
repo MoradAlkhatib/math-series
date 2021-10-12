@@ -1,20 +1,16 @@
 FibArray = [0, 1]
  
 def fibonacci(n):
-    a = 0
-    b = 1
+    
     if n < 0:
         return("Incorrect input")
     elif n == 0:
-        return a
+        return 0
     elif n == 1:
-        return b
+        return 1
     else:
-        for i in range(2, n):
-            c = a + b
-            a = b
-            b = c
-        return b
+        return fibonacci(n-1)+fibonacci(n-2)
+        
 
 def lucas(n) :
     a = 2
