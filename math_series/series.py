@@ -31,6 +31,11 @@ def lucas(n) :
     return b
      
 def sum_series(n, n1, n2):
+    if n1 == None:
+        n1=0
+    if n2 == None:
+        n1=1
+
     if type(n) != int:
         return ("invalid Input")
     elif n < 0:
