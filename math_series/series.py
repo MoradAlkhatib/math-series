@@ -1,12 +1,16 @@
+FibArray = [0, 1]
+ 
 def fibonacci(n):
-    if n<= 0:
+    
+    if n < 0:
         return("Incorrect input")
-    elif n == 1:
+    elif n == 0:
         return 0
-    elif n == 2:
+    elif n == 1:
         return 1
     else:
         return fibonacci(n-1)+fibonacci(n-2)
+        
 
 def lucas(n) :
     a = 2
@@ -23,6 +27,11 @@ def lucas(n) :
     return b
      
 def sum_series(n, n1, n2):
+    if n1 == None:
+        n1=0
+    if n2 == None:
+        n1=1
+
     if type(n) != int:
         return ("invalid Input")
     elif n < 0:
